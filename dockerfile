@@ -15,7 +15,7 @@ RUN CGO_ENABLED=0 GOOS=linux go build -o Void-Go .
 
 FROM alpine:latest
 
-LABEL org.opencontainers.image.source="https://github.com/Arjuna-Ragil/Void-Go"
+LABEL org.opencontainers.image.source="https://github.com/Juna-Labs/Void-Go"
 
 RUN apk --no-cache add ca-certificates
 
